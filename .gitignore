@@ -1,4 +1,3 @@
-*
-!*.go
-!*.md
-!.gitignore
+**/puzzle1/puzzle1
+**/puzzle2/puzzle2
+template/template
