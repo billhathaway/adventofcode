@@ -9,6 +9,15 @@ import (
 	"os"
 )
 
+type (
+	xy struct {
+		x int
+		y int
+	}
+)
+
+var ()
+
 func parse(r io.Reader) error {
 	s := bufio.NewScanner(r)
 	s.Split(bufio.ScanLines)
